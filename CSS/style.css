@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.right{
+    @apply float-right clear-both
+}
+.left{
+    @apply float-left clear-both
+}
+.message{
+    @apply  border-2 flex flex-wrap border-black rounded-md h-auto w-96 bg-white px-2 py-1 my-3 
+}
+@tailwind utilities;
